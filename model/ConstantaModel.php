@@ -4,7 +4,7 @@ namespace model;
 
 use plugins\model\constanta;
 
-use pukoframework\pda\DBI;
+use satframework\pda\DBI;
 
 /**
  * Class ConstantaModel

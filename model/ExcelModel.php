@@ -3,7 +3,7 @@
 namespace model;
 
 use plugins\model\excel;
-use pukoframework\pda\DBI;
+use satframework\pda\DBI;
 
 /**
  * Class ExcelModel

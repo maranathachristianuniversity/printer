@@ -3,7 +3,7 @@
 namespace model;
 
 use plugins\model\users;
-use pukoframework\pda\DBI;
+use satframework\pda\DBI;
 
 /**
  * Class UserModel

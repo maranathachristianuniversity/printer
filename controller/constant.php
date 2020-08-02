@@ -1,4 +1,16 @@
 <?php
+/**
+ * Printer
+ *
+ * This content is released under the Apache License Version 2.0, January 2004
+ * https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Copyright (c) 2016, Didit Velliz
+ *
+ * @author	Didit Velliz
+ * @since	Version 1.0.0
+ *
+ */
 
 namespace controller;
 
@@ -7,9 +19,9 @@ use model\ConstantaModel;
 use plugins\auth\AnywhereAuthenticator;
 use plugins\controller\AnywhereView;
 use plugins\model\constanta;
-use pukoframework\auth\Session;
-use pukoframework\Framework;
-use pukoframework\Request;
+use satframework\auth\Session;
+use satframework\Framework;
+use satframework\Request;
 
 /**
  * #ClearOutput false

@@ -1,18 +1,14 @@
 <?php
 /**
- * Anywhere
- *
- * Anywhere is output-as-a-service (OAAS) platform.
+ * Printer
  *
  * This content is released under the Apache License Version 2.0, January 2004
  * https://www.apache.org/licenses/LICENSE-2.0
  *
  * Copyright (c) 2016, Didit Velliz
  *
- * @package    velliz/anywhere
- * @author    Didit Velliz
- * @link    https://github.com/velliz/anywhere
- * @since    Version 1.0.0
+ * @author	Didit Velliz
+ * @since	Version 1.0.0
  *
  */
 
@@ -24,8 +20,8 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use plugins\auth\AnywhereAuthenticator;
 use plugins\controller\AnywhereView;
-use pukoframework\auth\Session;
-use pukoframework\Framework;
+use satframework\auth\Session;
+use satframework\Framework;
 
 /**
  * Class excel
@@ -85,7 +81,7 @@ class excel extends AnywhereView
             ), JSON_PRETTY_PRINT),
             'dataspecs' => json_encode(array(
                 array("key" => "nama", "value" => array(
-                    "Anywhere Wrapper", "Puko Framework", "PHP 7.3"
+                    "Anywhere Wrapper", "SAT Framework", "PHP 7.3"
                 )),
                 array("key" => "umur", "value" => array(
                     12, 15, 14

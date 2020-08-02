@@ -3,9 +3,13 @@
 namespace plugins\auth;
 
 use model\UserModel;
-use pukoframework\auth\Auth;
-use pukoframework\auth\PukoAuth;
+use satframework\auth\Auth;
+use satframework\auth\SatAuth;
 
+/**
+ * Class AnywhereAuthenticator
+ * @package plugins\auth
+ */
 class AnywhereAuthenticator implements Auth
 {
 
@@ -27,7 +31,7 @@ class AnywhereAuthenticator implements Auth
         $loginResult = UserModel::GetUser($username, $password);
         $uid = (isset($loginResult[0]['ID'])) ? $loginResult[0]['ID'] : null;
 
-        return new PukoAuth($uid, array());
+        return new SatAuth($uid, array());
     }
 
     public function Logout()

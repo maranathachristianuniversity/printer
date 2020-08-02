@@ -2,7 +2,7 @@
 
 namespace model;
 
-use pukoframework\pda\DBI;
+use satframework\pda\DBI;
 
 /**
  * Class LogPdf

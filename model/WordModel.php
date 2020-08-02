@@ -3,7 +3,7 @@
 namespace model;
 
 use controller\api\word;
-use pukoframework\pda\DBI;
+use satframework\pda\DBI;
 
 /**
  * Class WordModel

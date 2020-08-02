@@ -3,7 +3,7 @@
 namespace model;
 
 use plugins\model\feedback;
-use pukoframework\pda\DBI;
+use satframework\pda\DBI;
 
 /**
  * Class FeedbackModel

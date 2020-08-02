@@ -1,30 +1,27 @@
 <?php
 /**
- * Anywhere
- *
- * Anywhere is output-as-a-service (OAAS) platform.
+ * Printer
  *
  * This content is released under the Apache License Version 2.0, January 2004
  * https://www.apache.org/licenses/LICENSE-2.0
  *
  * Copyright (c) 2016, Didit Velliz
  *
- * @package    velliz/anywhere
- * @author    Didit Velliz
- * @link    https://github.com/velliz/anywhere
- * @since    Version 1.0.0
+ * @author	Didit Velliz
+ * @since	Version 1.0.0
  *
  */
+
 namespace controller;
 
 use plugins\auth\AnywhereAuthenticator;
 use Exception;
 use model\UserModel;
 use plugins\controller\AnywhereView;
-use pukoframework\auth\Session;
-use pukoframework\Framework;
-use pukoframework\peh\ValueException;
-use pukoframework\Request;
+use satframework\auth\Session;
+use satframework\Framework;
+use satframework\peh\ValueException;
+use satframework\Request;
 
 /**
  * Class main

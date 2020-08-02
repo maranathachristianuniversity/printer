@@ -5,9 +5,9 @@ namespace plugins\controller;
 use Exception;
 use model\ConstantaModel;
 use plugins\auth\AnywhereAuthenticator;
-use pukoframework\auth\Session;
-use pukoframework\Framework;
-use pukoframework\middleware\View;
+use satframework\auth\Session;
+use satframework\Framework;
+use satframework\middleware\View;
 
 /**
  * #Master master.html
